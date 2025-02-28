@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height */
+  }
+  
+  main {
+    flex: 1; /* Push footer to bottom */
+  }
+  
+  app-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
