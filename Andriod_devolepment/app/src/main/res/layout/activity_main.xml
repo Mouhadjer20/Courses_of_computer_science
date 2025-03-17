@@ -52,9 +52,11 @@
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:padding="12dp"
-            android:inputType="none"
             android:text="USD"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:focusable="false"
+            android:clickable="true"
+            android:cursorVisible="false"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- "To" TextView -->
@@ -84,9 +86,11 @@
             android:layout_height="wrap_content"
             android:minHeight="48dp"
             android:padding="12dp"
-            android:inputType="none"
             android:text="DA"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:focusable="false"
+            android:clickable="true"
+            android:cursorVisible="false"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- "Amount" TextView -->
